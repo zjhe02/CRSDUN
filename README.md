@@ -57,11 +57,11 @@ The reconstructed HSIs and segmentation results will be output into `./exp/CRSDU
 
 Our code and dataset are based on the following works, thanks to their generous open source:
 
-- [MST](https://github.com/caiyuanhao1998/MST)
-- [Hyplex](https://github.com/makamoa/hyplex)
-- [STViT](https://github.com/hhb072/STViT)
-- [SSR](https://github.com/ZhangJC-2k/SSR)
-- [Swin-Transformer](https://github.com/microsoft/Swin-Transformer/tree/main)
+- [MST](https://github.com/caiyuanhao1998/MST): For the overall code framework.
+- [Hyplex](https://github.com/makamoa/hyplex): For the FVgNET dataset and the dataset class, metrics code.
+- [STViT](https://github.com/hhb072/STViT): For the code of super-token attention.
+- [SSR](https://github.com/ZhangJC-2k/SSR): For the code of spectral reconstruction modules.
+- [Swin-Transformer](https://github.com/microsoft/Swin-Transformer/tree/main): For the code of window attention.
 
 
 ## Citation
