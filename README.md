@@ -5,6 +5,7 @@ This repo is the implementation of the paper "[Joint Spectral Image Reconstructi
 ## Abstract
 
 Coded Aperture Snapshot Spectral Imaging (CASSI) is an emerging hyperspectral image (HSI) acquisition technique for downstream semantic segmentation. Due to the ill-posedness nature of CASSI systems, typical solutions are compelled to conduct a two-stage reconstruction then-segmentation pipeline, namely viewing them as two separate tasks. However, we observe that such two tasks are interrelated and mutually reinforcing for representation learning, and thus separating them limits the overall accuracy and efficiency. To this end, we propose the first **C**ooperative **R**econstruction-**S**egmentation **D**eep **U**nfolding **N**etwork (**CRSDUN**) to solve the reconstruction and segmentation tasks in parallel. To make the two mutually reinforcing, we introduce the Cross-Aggregated Super-Token Attention (CASTA) mechanism to enhance the representation interactions between HSI reconstruction and semantic segmentation. Extensive experiments on both synthetic and real-world HSI reconstruction-segmentation datasets demonstrate that our method achieves state-of-the-art in both spectral reconstruction and semantic segmentation.
+<img src="./figs/CRSDUN.png">
 
 ## Dataset
 
