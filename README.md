@@ -4,11 +4,11 @@ This repo is the implementation of the paper "Joint Spectral Image Reconstructio
 
 ## Abstract
 
-Coded Aperture Snapshot Spectral Imaging (CASSI) is an emerging hyperspectral image (HSI) acquisition technique for downstream semantic segmentation. Due to the ill-posedness nature of CASSI systems, typical solutions are compelled to conduct a two-stage reconstruction then-segmentation pipeline, namely viewing them as two separate tasks. However, we observe that such two tasks are interrelated and mutually reinforcing for representation learning, and thus separating them limits the overall accuracy and efficiency. To this end, we propose the first **C**ooperative **R**econstruction-**S**egmentation **D**eep **U**nfolding **N**etwork (**CRSDUN**) to solve the re construction and segmentation tasks in parallel. To make the two mutually reinforcing, we introduce the Cross-Aggregated Super-Token Attention (CASTA) mechanism to enhance the representation interactions between HSI reconstruction and semantic segmentation. Extensive experiments on both synthetic and real-world HSI reconstruction-segmentation datasets demonstrate that our method achieves state-of-the-art in both spectral reconstruction and semantic segmentation.
+Coded Aperture Snapshot Spectral Imaging (CASSI) is an emerging hyperspectral image (HSI) acquisition technique for downstream semantic segmentation. Due to the ill-posedness nature of CASSI systems, typical solutions are compelled to conduct a two-stage reconstruction then-segmentation pipeline, namely viewing them as two separate tasks. However, we observe that such two tasks are interrelated and mutually reinforcing for representation learning, and thus separating them limits the overall accuracy and efficiency. To this end, we propose the first **C**ooperative **R**econstruction-**S**egmentation **D**eep **U**nfolding **N**etwork (**CRSDUN**) to solve the reconstruction and segmentation tasks in parallel. To make the two mutually reinforcing, we introduce the Cross-Aggregated Super-Token Attention (CASTA) mechanism to enhance the representation interactions between HSI reconstruction and semantic segmentation. Extensive experiments on both synthetic and real-world HSI reconstruction-segmentation datasets demonstrate that our method achieves state-of-the-art in both spectral reconstruction and semantic segmentation.
 
 ## Dataset
 
-Download  ([FVgNET dataset](https://pan.baidu.com/s/1Z69PEVDEx-rxd4-YVByzmw?pwd=jjkf), code: `fo0q` ), and then put them into the corresponding folders of `fvgnet/` as the following form:
+Download  ([FVgNET dataset](https://pan.baidu.com/s/1Z69PEVDEx-rxd4-YVByzmw?pwd=jjkf), code: `fo0q` ), and then put them into the corresponding folders of `fvgnet/` as follows:
 
 ```
 |--fvgnet
@@ -37,7 +37,7 @@ The checkpoint and results are publicly accessible at → [Pretrained model and 
 bash train.sh
 ```
 
-The training log, trained model will be available in `./exp/` .
+The training log and trained model will be available in `./exp/` .
 
 ## Testing
 
@@ -49,12 +49,12 @@ Run the following command to test the model on FVgNET
 bash test.sh
 ```
 
-The reconstructed HSIs and segmentation results will be output into `./exp/CRSDUN_test/
+The reconstructed HSIs and segmentation results will be output into `./exp/CRSDUN_test/`
 
 
 ## Acknowledgements
 
-Our code and dataset is based on following works, thanks for their generous open source:
+Our code and dataset are based on the following works, thanks to their generous open source:
 
 - [MST](https://github.com/caiyuanhao1998/MST)
 - [Hyplex](https://github.com/makamoa/hyplex)
@@ -62,7 +62,7 @@ Our code and dataset is based on following works, thanks for their generous open
 
 ## Citation
 
-If this code helps you, please consider citing our works:
+If this code helps you, please consider citing our work:
 
 ```
 @InProceedings{crsdun_cvpr2026,
