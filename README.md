@@ -1,6 +1,6 @@
 ## [CVPR 2026] Joint Spectral Image Reconstruction and Semantic Segmentation with Cooperative Unfolding
 
-This repo is the implementation of the paper "Joint Spectral Image Reconstruction and Semantic Segmentation with Cooperative Unfolding".
+This repo is the implementation of the paper "[Joint Spectral Image Reconstruction and Semantic Segmentation with Cooperative Unfolding](https://openaccess.thecvf.com/content/CVPR2026/html/He_Joint_Spectral_Image_Reconstruction_and_Semantic_Segmentation_with_Cooperative_Unfolding_CVPR_2026_paper.html)".
 
 ## Abstract
 
