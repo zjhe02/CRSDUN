@@ -58,6 +58,9 @@ Our code and dataset are based on the following works, thanks to their generous 
 
 - [MST](https://github.com/caiyuanhao1998/MST)
 - [Hyplex](https://github.com/makamoa/hyplex)
+- [STViT](https://github.com/hhb072/STViT)
+- [SSR](https://github.com/ZhangJC-2k/SSR)
+- [Swin-Transformer](https://github.com/microsoft/Swin-Transformer/tree/main)
 
 
 ## Citation
