@@ -9,7 +9,7 @@ Coded Aperture Snapshot Spectral Imaging (CASSI) is an emerging hyperspectral im
 
 ## Dataset
 
-Download  ([FVgNET dataset](https://pan.baidu.com/s/1Z69PEVDEx-rxd4-YVByzmw?pwd=jjkf), code: `fo0q` ), and then put them into the corresponding folders of `fvgnet/` as follows:
+Download  ([FVgNET dataset](https://pan.baidu.com/s/1Z69PEVDEx-rxd4-YVByzmw?pwd=jjkf), code: `jjkf` ), and then put them into the corresponding folders of `fvgnet/` as follows:
 
 ```
 |--fvgnet
